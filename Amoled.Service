@@ -1,0 +1,7 @@
+[Unit]
+Description=Smooth Brightness Control
+[Service]
+Type=simple
+ExecStart=/usr/bin/bash /home/impossibleclone/.local/bin/oled-linux
+[Install]
+WantedBy=deafult.target
